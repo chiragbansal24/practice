@@ -17,7 +17,7 @@
 .first-section
 { grid-area: first;
   padding: 150px;
-  background-image: url(http://news.efinancialcareers.com/binaries/content/gallery/efinancial-careers/articles/2018/09/Coding-language-11.jpg);
+  background-image: url(https://images.pexels.com/photos/65777/pexels-photo-65777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -375,4 +375,71 @@ list-style: none
   color: rgb(141,155,178);
   border-bottom: 3px solid rgb(80,90,96);
   padding-bottom: 0.5rem;
+}
+.sidenav {
+    height: 100vh;
+    width: 90px;
+    position: fixed;
+    z-index: 99999999999;
+    top: 12%;
+    left: 0;
+    padding: 30px 30px;
+    overflow-x: hidden;
+    overflow-y: hidden
+}
+
+.sidenav a:link,
+.sidenav a:visited {
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block
+}
+
+.sidenav i {
+    margin: 15px 0;
+    font-size: 120%;
+    color: #e3e7f1;
+    padding-left: 3px;
+}
+
+.v-line {
+    margin-left: 10px;
+    border-left: 4px solid transparent;
+    -o-border-image: linear-gradient(to bottom right, #b827fc 10%, #2c90fc 15%, #b8fd33 25%, #fec837 25%, #fd1892 65%);
+    border-image: -webkit-gradient(linear, left top, right bottom, color-stop(10%, #b827fc), color-stop(15%, #2c90fc), color-stop(25%, #b8fd33), color-stop(25%, #fec837), color-stop(65%, #fd1892));
+    border-image: linear-gradient(to bottom right, #b827fc 10%, #2c90fc 15%, #b8fd33 25%, #fec837 25%, #fd1892 65%);
+    border-image-slice: 1
+}
+
+.v-line1 {
+    height: 30vh;
+    margin-bottom: 10px
+}
+
+.v-line2 {
+    height: 40vh;
+    margin-top: 10px
+}
+
+.sidenav i {
+    -webkit-transition: .2s;
+    transition: .2s
+}
+.linkedin i:hover {
+    color: #0077b5;
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25)
+}
+
+.github i:hover {
+    color: #999;
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25)
+}
+
+.facebook i:hover {
+    color: #3b5999;
+    -webkit-transform: scale(1.25);
+    transform: scale(1.25)
 }
